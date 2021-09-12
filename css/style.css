@@ -1,0 +1,71 @@
+/* common */
+
+h1,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+body {
+  background-size: 120%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color:rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+}
+
+/* header */
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+/* main */
+
+main .icon {
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+main h1 {
+  font-size: 2em;
+}
+
+main .container div + div {
+  margin-left: 32px;
+}
+
+main h2 {
+  border-bottom: 1px solid black;
+}
+
+
+main .works img {
+  border: 1px solid orange;
+}
+
+
+/* footer */
